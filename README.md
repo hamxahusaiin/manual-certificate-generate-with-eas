@@ -60,10 +60,10 @@ prompt             = no                   # Disables interactive prompts
 output_password    = mypassword           # Optional password for the key
 
 [ req_distinguished_name ]
-countryName            = UK               # Country code
-stateOrProvinceName    = England          # State or province
+countryName            = USA               # Country code
+stateOrProvinceName    = Calfornia          # State or province
 localityName           = Street 1, here   # City or specific address
-organizationName       = Abdullah risk    # Organization name
+organizationName       = CompanyName LLC    # Organization name
 commonName             = website.com      # Domain or app name
 ```
 
@@ -168,5 +168,3 @@ EAS will automatically use the credentials provided in `credentials.json`.
 - Use a Windows RDP to set up OpenSSL and generate iOS credentials.
 - Keep the `.p12` and provisioning profile files secure.
 - `credentials.json` simplifies manual credential management in EAS.
-
-Let me know if you need further assistance! 😊
