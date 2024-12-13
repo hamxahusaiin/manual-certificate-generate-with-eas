@@ -60,7 +60,7 @@ prompt             = no                   # Disables interactive prompts
 output_password    = mypassword           # Optional password for the key
 
 [ req_distinguished_name ]
-countryName            = USA               # Country code
+countryName            = US               # Country code
 stateOrProvinceName    = Calfornia          # State or province
 localityName           = Street 1, here   # City or specific address
 organizationName       = CompanyName LLC    # Organization name
